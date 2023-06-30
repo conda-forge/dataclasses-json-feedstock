@@ -1,5 +1,5 @@
 {% set name = "dataclasses-json" %}
-{% set version = "0.5.7" %}
+{% set version = "0.5.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c2c11bc8214fbf709ffc369d11446ff6945254a7f09128154a7620613d8fda90
+  sha256: e9ac87b73edc0141aafbce02b44e93553c3123ad574958f0fe52a534b6707e8e
 
 build:
   noarch: python
